@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PropertyLinkItem</id>
+    <title>PropertyLinkItem</title>
+    <authors>Hieu Nguyen Trung</authors>
+    <owners>Hieu Nguyen Trung</owners>
+    <version>$version$</version>
+    <licenseUrl>https://github.com/chrno1209/episerver-PropertyLinkItem/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/chrno1209/episerver-PropertyLinkItem</projectUrl>
+    <iconUrl>https://www.episerver.com/Framework/Styles/Images/Products/Integration.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enable LinkItem as a property type</description>
+    <releaseNotes>First release</releaseNotes>
+    <tags>episerver propertylinkitem propertylink linkitem linkitemcollection</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0, 12.0)" />
+      <dependency id="EPiServer.Framework" version="[11.1.0, 12.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\PropertyLinkItem.dll" target="lib\net461\" />
+    <file src="bin\$configuration$\PropertyLinkItem.zip" target="content\modules\_protected\PropertyLinkItem\" />
+    <file src="web.config.transform" target="content" />
+  </files>
+</package>
